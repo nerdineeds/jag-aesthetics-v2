@@ -3,6 +3,7 @@ import './globals.css';
 import './embla.css';
 import MainNavigation from './components/MainNavigation';
 import Footer from './components/Footer';
+import Script from 'next/script';
 
 export const metadata: Metadata = {
   title: 'JAGAesthetic',
@@ -16,6 +17,21 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="h-full">
+      <head>
+        {/* Google Analytics */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-ESBBCJF16N"
+          strategy="afterInteractive" // Ensures the script runs after page load
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-ESBBCJF16N');
+          `}
+        </Script>
+      </head>
       <body className="flex flex-col min-h-screen">
         <MainNavigation />
         <main className="flex-grow">{children}</main>
