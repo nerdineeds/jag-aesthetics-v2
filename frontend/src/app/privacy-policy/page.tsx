@@ -1,8 +1,15 @@
+import { Metadata } from 'next';
 import React from 'react';
+
+export const metadata: Metadata = {
+  title: ' Privacy Policy | JAG Aesthetic Digital',
+  description:
+    'JAG Aesthetic Digital delivers cutting-edge aesthetic web design and technical solutions to elevate your brand. From bespoke website development to innovative digital strategies, we craft visually striking and high-performing online experiences. Partner with us to enhance your digital presence today.',
+};
 
 const PrivacyPolicy = () => {
   return (
-    <div className="border border-red-500 max-w-6xl mx-auto">
+    <div className=" max-w-6xl mx-auto">
       <div className="bg-white px-6 py-32 lg:px-8">
         <div className="mx-auto max-w-3xl text-base leading-7 text-gray-700">
           <p className="text-base font-semibold leading-7 text-indigo-600">
