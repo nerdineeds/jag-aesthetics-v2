@@ -1,13 +1,13 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
+import logo from '../logo-nobkg.png';
 
 // Define the component using React.FC
 const MainNavigation: React.FC = () => {
   return (
     <header className="bg-white mx-auto px-6 w-full flex flex-row items-center justify-between py-3">
-      <p className="text-2xl font-bold text-gray-800">
-        JAG Aesthetic
-      </p>
+      <Image alt="JAG Aesthetic Digital" src={logo} width={125} />
       <Link
         href="https://calendly.com/jagaestheticdigital"
         target="_blank"

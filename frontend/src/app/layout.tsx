@@ -7,7 +7,7 @@ import Script from 'next/script';
 
 export const metadata: Metadata = {
   title:
-    'JAG Aesthetic Digital | Aesthetic Web Design & Technical Solutions for Stunning Online Presence',
+    'JAG Aesthetic Digital | Bespoke Digital Solutions for High-Profile Brands',
   description:
     'JAG Aesthetic Digital delivers cutting-edge aesthetic web design and technical solutions to elevate your brand. From bespoke website development to innovative digital strategies, we craft visually striking and high-performing online experiences. Partner with us to enhance your digital presence today.',
 };

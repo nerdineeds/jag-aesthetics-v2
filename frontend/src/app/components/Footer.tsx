@@ -58,7 +58,7 @@ const getSocialIcon = (socialName: SocialLink['account']) => {
 const Footer: React.FC = () => {
   // Define socials with the correct type
   const socials: SocialLink[] = [
-    { id: 1, href: 'https://facebook.com', account: 'facebook' },
+    { id: 1, href: 'https://facebook.com/', account: 'facebook' },
     { id: 2, href: 'https://instagram.com', account: 'instagram' },
     { id: 3, href: 'https://linkedin.com', account: 'linkedin' },
     { id: 4, href: 'https://youtube.com', account: 'youtube' },
