@@ -37,64 +37,54 @@ interface ImageType {
 
 const images: ImageType[] = [
   {
-    alt: 'Benzinga Logo',
-    image:
-      'https://res.cloudinary.com/divvupnnr/image/upload/v1725567598/Benzinga-Logo_jnmom4.png',
-  },
-  {
     alt: 'StockX Logo',
     image:
-      'https://res.cloudinary.com/divvupnnr/image/upload/v1725567590/StockX-Logo_wdket6.png',
+      'https://res.cloudinary.com/dbfrv8vhz/image/upload/v1735781604/Logos/StockX-Logo_ugthwl.png',
   },
   {
     alt: 'Fluid Spaces Logo',
     image:
-      'https://res.cloudinary.com/divvupnnr/image/upload/v1725567589/fluid_spaces_pd5ivw.png',
+      'https://res.cloudinary.com/dbfrv8vhz/image/upload/t_200x200-resize/v1735781605/Logos/fluid_spaces_in2zwa.png',
   },
   {
     alt: 'ZCOB Logo',
     image:
-      'https://res.cloudinary.com/divvupnnr/image/upload/v1725567588/zcob_logo_hprzpm.png',
+      'https://res.cloudinary.com/dbfrv8vhz/image/upload/t_200x200-resize/v1735781605/Logos/zcob_logo_qyhme7.png',
   },
   {
     alt: 'Inside Out Logo',
     image:
-      'https://res.cloudinary.com/divvupnnr/image/upload/v1725567587/insideout-design-development_vpwgg2.png',
+      'https://res.cloudinary.com/dbfrv8vhz/image/upload/v1735781605/Logos/insideout-design-development_axjlvv.png',
   },
   {
     alt: 'Preva Logo',
     image:
-      'https://res.cloudinary.com/divvupnnr/image/upload/v1726616488/small_Preva_Concept_2_3_D_Gold_1_nqcyms_e47c22a66f_vw0cvx.png',
+      'https://res.cloudinary.com/dbfrv8vhz/image/upload/v1735781604/Logos/logo_c6ixhb.jpg',
   },
   {
     alt: 'U-M Logo',
     image:
-      'https://res.cloudinary.com/divvupnnr/image/upload/v1725567597/U-M_Logo-Hex_g5fwss.png',
+      'https://res.cloudinary.com/dbfrv8vhz/image/upload/v1735781605/Logos/University-Of-Michigan-Logo_qdavmg.png',
   },
   {
     alt: 'Fanatics Logo',
     image:
-      'https://res.cloudinary.com/divvupnnr/image/upload/v1725567596/fanatucs_oyg9d2.png',
+      'https://res.cloudinary.com/dbfrv8vhz/image/upload/v1735781605/Logos/fanatucs_sj6wmw.png',
   },
   {
     alt: 'Soccer Swag Logo',
     image:
-      'https://res.cloudinary.com/divvupnnr/image/upload/v1725567595/soccer_swag_j81lkw.png',
+      'https://res.cloudinary.com/dbfrv8vhz/image/upload/v1735781603/Logos/soccer_swag_oeaszu.png',
   },
   {
     alt: 'Deep End Logo',
     image:
-      'https://res.cloudinary.com/divvupnnr/image/upload/v1725567593/deepend_lsodwl.png',
+      'https://res.cloudinary.com/dbfrv8vhz/image/upload/v1735781604/Logos/deepend_iywpbe.png',
   },
   {
     alt: 'Qualigence Logo',
     image:
-      'https://res.cloudinary.com/divvupnnr/image/upload/v1725567593/qualigence_mxvoxc.png',
-  },
-  {
-    alt: 'Detroit Flower Company Logo',
-    image:
-      'https://res.cloudinary.com/divvupnnr/image/upload/v1725567592/Detroit_Flower_Company_adhcl1.png',
+      'https://res.cloudinary.com/dbfrv8vhz/image/upload/v1735781786/Logos/Red-Bull-logo-500x281_l6tngy.png',
   },
 ];
 
