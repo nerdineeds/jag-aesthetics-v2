@@ -19,7 +19,7 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
   const [emblaRef] = useEmblaCarousel(options, [Autoplay()]);
 
   return (
-    <div className="bg-white md:mt-28 mt-12 border">
+    <div className="bg-white md:mt-28 mt-12">
       <div className="mx-auto lg:max-w-7xl px-6 lg:px-8 w-full">
         <h2 className="text-center text-sm lg:text-lg font-semibold leading-8 text-gray-900 mb-3 md:block hidden">
           Crafting Bespoke Solutions for Elite Brands Worldwide
