@@ -86,6 +86,10 @@ const images: ImageType[] = [
     image:
       'https://res.cloudinary.com/dbfrv8vhz/image/upload/v1735781786/Logos/Red-Bull-logo-500x281_l6tngy.png',
   },
+  {
+    alt: 'Red Bull Arts',
+    image: 'Red-Bull-logo-500x281_l6tngy',
+  },
 ];
 
 // Define Embla options type
